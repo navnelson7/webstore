@@ -1,4 +1,4 @@
-export interface Rating {
+interface Rating {
     rate: number;
     count: number;
 }
@@ -10,7 +10,7 @@ export interface Product {
     category: string;
     description: string;
     image: string;
-    rating: Rating:
+    rating: Rating;
     qty: number;
     subTotal: number
 }
